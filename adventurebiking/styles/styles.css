@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rock+Salt&display=swap');
+
+#content {
+    max-width: 1600px;
+    font-size: 22px;
+    margin: 0 auto;
+}
+#content2 {
+    
+    text-align: center;  
+    font-size: 22px;
+}
+header {
+    background-color: #1f305a;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    padding: 35px;
+}
+nav a:hover {
+    background-color:#9293be;
+    color:#e0aa4a;;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    z-index: 1;
+}
+#hero-msg h1 {
+    text-align: center;
+    color:white;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 100px;
+}
+#home-grid {
+    margin: 0 auto;
+}
+#adamsbikes{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-gap: 20px;
+    
+}
+.adamsbikes-title {
+    text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color:#1f305a;
+    grid-column: 1/3;
+    
+}
+.biachi {
+    width: 600px;
+    grid-column: 1/2 ;
+    grid-row: 2/3;
+}
+.diamondback {
+    width: 600px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#tours {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-gap: 20px;
+}
+.tours-title {
+    text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    color:#1f305a;
+    grid-column: 1/3;
+    margin-bottom: 50px;
+    
+}
+.canal3 {
+    width: 600px;
+    grid-column: 1/2 ;
+    grid-row: 2/4;
+}
+.towpath {
+    width: 600px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#adam-contact {
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-gap: 20px;
+}
+.adam-msg {
+    color:#1f305a;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    width: 100px;   
+    grid-column: 2/3;
+}   
+.adam-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+.adam-img {
+    width: 300px;
+    grid-column: 3/4;
+}
+
+footer {
+    background-color: #1f305a;
+    color:white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#9293be;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+

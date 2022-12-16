@@ -150,20 +150,25 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+    
 }
 footer p a:hover {
     text-decoration: underline;
 }
 footer .social img {
     padding-top: 15px;
+    max-width: 40px;
 }
+
+
+
 
 /*Adam's Bikes page */
 
 .bikes {
 
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr; 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -171,4 +176,6 @@ footer .social img {
 img {
     width: 200px;
 }
+
+/* Adventure Tours */
 
